@@ -1,0 +1,36 @@
+{
+  "name": "arifmahmudrana/context",
+  "description": "PHP single context. Key value store in current context.",
+  "keywords": ["framework", "laravel", "symfony"],
+  "license": "MIT",
+  "homepage": "https://github.com/arifmahmudrana/context",
+  "support": {
+    "issues": "https://github.com/arifmahmudrana/context/issues",
+    "source": "https://github.com/arifmahmudrana/context"
+  },
+  "authors": [
+    {
+      "name": "Arif Mahmud Rana",
+      "email": "arif_mahmud_rana@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "ArifMahmudRana\\Context\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {"ArifMahmudRana\\Context\\Test\\": "tests/"}
+  },
+  "replace": {
+    "arifmahmudrana/context": "self.version"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
